@@ -13,6 +13,7 @@
 		3CDA380F9482F6F45F5775CC /* HotkeyPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF4F73A285EA6AE163516 /* HotkeyPanel.swift */; };
 		445B47C813789298C5762A08 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353DE3A841BDF1B268FABD8 /* TouchBarController.swift */; };
 		496306DA10A7DA42284E0F24 /* SymbolCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5964407BD4920E57C39926 /* SymbolCategory.swift */; };
+		69D8306E515BC6D4A5165198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27859725B0CFB07D0368C9DA /* Assets.xcassets */; };
 		6A49DFD216AB5A70F1ACC561 /* SymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D482F6804D97CC13902718 /* SymbolStore.swift */; };
 		7D8A2533135898DFADF4EE47 /* SymbolInserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A86E7984E021B2723536A /* SymbolInserter.swift */; };
 		831EF092B5F3394BD9B25907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B304EA005658330A1234060 /* main.swift */; };
@@ -28,6 +29,7 @@
 		0436387055CABE575A2245B0 /* AccessibilityPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermission.swift; sourceTree = "<group>"; };
 		1526AF14942E97B7E47A2597 /* touchBarText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchBarText-Bridging-Header.h"; sourceTree = "<group>"; };
 		159E8C32952D6166F482F2B5 /* HotkeyPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyPanelController.swift; sourceTree = "<group>"; };
+		27859725B0CFB07D0368C9DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D30310A4B0CB1D7001ED2A /* DFRPrivateAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFRPrivateAPI.swift; sourceTree = "<group>"; };
 		49CC07E237058FD3E6806B13 /* LoginItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemManager.swift; sourceTree = "<group>"; };
 		59FAF4F73A285EA6AE163516 /* HotkeyPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyPanel.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		DCB81E2B4517749485873525 /* touchBarText */ = {
 			isa = PBXGroup;
 			children = (
+				27859725B0CFB07D0368C9DA /* Assets.xcassets */,
 				1526AF14942E97B7E47A2597 /* touchBarText-Bridging-Header.h */,
 				96F97CB764F7B90C051759D2 /* App */,
 				E48ECCFD0FD333CD565DAF98 /* Hotkey */,
@@ -148,6 +151,7 @@
 			buildConfigurationList = 47A913EFDFA6C1A2901A53BB /* Build configuration list for PBXNativeTarget "touchBarText" */;
 			buildPhases = (
 				6A7715C07E9A7C6212132B8D /* Sources */,
+				7E08E18D4A634B31E3E297E3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +197,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		7E08E18D4A634B31E3E297E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D8306E515BC6D4A5165198 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A7715C07E9A7C6212132B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -223,10 +238,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2L68FL9Z69;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = touchBarText/Info.plist;
@@ -302,10 +315,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2L68FL9Z69;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = touchBarText/Info.plist;
