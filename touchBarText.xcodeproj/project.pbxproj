@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1304EAE6AB1A8995C78CE529 /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD696DDF654CB18A23C86173 /* StatusItemController.swift */; };
+		2138E2FF773690D8D4EF7E58 /* AccessibilityPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0436387055CABE575A2245B0 /* AccessibilityPermission.swift */; };
+		3266E763C49626435134C401 /* SymbolPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01B9252936162AE8090246A /* SymbolPickerViewModel.swift */; };
+		3CDA380F9482F6F45F5775CC /* HotkeyPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FAF4F73A285EA6AE163516 /* HotkeyPanel.swift */; };
+		445B47C813789298C5762A08 /* TouchBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8353DE3A841BDF1B268FABD8 /* TouchBarController.swift */; };
+		496306DA10A7DA42284E0F24 /* SymbolCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5964407BD4920E57C39926 /* SymbolCategory.swift */; };
+		6A49DFD216AB5A70F1ACC561 /* SymbolStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D482F6804D97CC13902718 /* SymbolStore.swift */; };
+		7D8A2533135898DFADF4EE47 /* SymbolInserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A86E7984E021B2723536A /* SymbolInserter.swift */; };
+		831EF092B5F3394BD9B25907 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B304EA005658330A1234060 /* main.swift */; };
+		9B7EA83109273CE1537645CF /* SymbolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAADE106D4AFBE7B461D2B4E /* SymbolPickerView.swift */; };
+		B39DE9F22BFE047F265AE32C /* HotkeyPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159E8C32952D6166F482F2B5 /* HotkeyPanelController.swift */; };
+		C7601BB21E7B5B0AD303CF4C /* LoginItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CC07E237058FD3E6806B13 /* LoginItemManager.swift */; };
+		D6C10011CE14EE72B77BBDBF /* DFRPrivateAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D30310A4B0CB1D7001ED2A /* DFRPrivateAPI.swift */; };
+		EBAFDEECA158BDD497E8D6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAFB77D9004CB7CC57B28D9 /* AppDelegate.swift */; };
+		FB7DF576A01F2B7E876E12FB /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E931397ABD7DBBB02E61D6AA /* HotkeyManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0436387055CABE575A2245B0 /* AccessibilityPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityPermission.swift; sourceTree = "<group>"; };
+		1526AF14942E97B7E47A2597 /* touchBarText-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchBarText-Bridging-Header.h"; sourceTree = "<group>"; };
+		159E8C32952D6166F482F2B5 /* HotkeyPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyPanelController.swift; sourceTree = "<group>"; };
+		31D30310A4B0CB1D7001ED2A /* DFRPrivateAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFRPrivateAPI.swift; sourceTree = "<group>"; };
+		49CC07E237058FD3E6806B13 /* LoginItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItemManager.swift; sourceTree = "<group>"; };
+		59FAF4F73A285EA6AE163516 /* HotkeyPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyPanel.swift; sourceTree = "<group>"; };
+		6C5964407BD4920E57C39926 /* SymbolCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolCategory.swift; sourceTree = "<group>"; };
+		8353DE3A841BDF1B268FABD8 /* TouchBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarController.swift; sourceTree = "<group>"; };
+		847A86E7984E021B2723536A /* SymbolInserter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolInserter.swift; sourceTree = "<group>"; };
+		87D482F6804D97CC13902718 /* SymbolStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolStore.swift; sourceTree = "<group>"; };
+		8B304EA005658330A1234060 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BAADE106D4AFBE7B461D2B4E /* SymbolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPickerView.swift; sourceTree = "<group>"; };
+		BD696DDF654CB18A23C86173 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemController.swift; sourceTree = "<group>"; };
+		C01B9252936162AE8090246A /* SymbolPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPickerViewModel.swift; sourceTree = "<group>"; };
+		CFAFB77D9004CB7CC57B28D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E931397ABD7DBBB02E61D6AA /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		FFC0AC165FD075B44B315724 /* touchBarText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchBarText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		63FA3081869E6E687FC82FC9 = {
+			isa = PBXGroup;
+			children = (
+				DCB81E2B4517749485873525 /* touchBarText */,
+				8687D72110C9F59B1F721250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8687D72110C9F59B1F721250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC0AC165FD075B44B315724 /* touchBarText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F97CB764F7B90C051759D2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CFAFB77D9004CB7CC57B28D9 /* AppDelegate.swift */,
+				8B304EA005658330A1234060 /* main.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B6655EFC8A9626E69E9066C7 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				0436387055CABE575A2245B0 /* AccessibilityPermission.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		DCB81E2B4517749485873525 /* touchBarText */ = {
+			isa = PBXGroup;
+			children = (
+				1526AF14942E97B7E47A2597 /* touchBarText-Bridging-Header.h */,
+				96F97CB764F7B90C051759D2 /* App */,
+				E48ECCFD0FD333CD565DAF98 /* Hotkey */,
+				ED9E1E38F2C1268C0FD50B44 /* Insertion */,
+				B6655EFC8A9626E69E9066C7 /* Permissions */,
+				ED63368AC189CE4A3BCFC518 /* StatusBar */,
+				FF697190D3D56EA613559008 /* Storage */,
+				E4BB8DBF667EE17B6C8DA614 /* TouchBar */,
+			);
+			path = touchBarText;
+			sourceTree = "<group>";
+		};
+		E48ECCFD0FD333CD565DAF98 /* Hotkey */ = {
+			isa = PBXGroup;
+			children = (
+				E931397ABD7DBBB02E61D6AA /* HotkeyManager.swift */,
+				59FAF4F73A285EA6AE163516 /* HotkeyPanel.swift */,
+				159E8C32952D6166F482F2B5 /* HotkeyPanelController.swift */,
+				BAADE106D4AFBE7B461D2B4E /* SymbolPickerView.swift */,
+				C01B9252936162AE8090246A /* SymbolPickerViewModel.swift */,
+			);
+			path = Hotkey;
+			sourceTree = "<group>";
+		};
+		E4BB8DBF667EE17B6C8DA614 /* TouchBar */ = {
+			isa = PBXGroup;
+			children = (
+				31D30310A4B0CB1D7001ED2A /* DFRPrivateAPI.swift */,
+				8353DE3A841BDF1B268FABD8 /* TouchBarController.swift */,
+			);
+			path = TouchBar;
+			sourceTree = "<group>";
+		};
+		ED63368AC189CE4A3BCFC518 /* StatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				49CC07E237058FD3E6806B13 /* LoginItemManager.swift */,
+				BD696DDF654CB18A23C86173 /* StatusItemController.swift */,
+			);
+			path = StatusBar;
+			sourceTree = "<group>";
+		};
+		ED9E1E38F2C1268C0FD50B44 /* Insertion */ = {
+			isa = PBXGroup;
+			children = (
+				847A86E7984E021B2723536A /* SymbolInserter.swift */,
+			);
+			path = Insertion;
+			sourceTree = "<group>";
+		};
+		FF697190D3D56EA613559008 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				6C5964407BD4920E57C39926 /* SymbolCategory.swift */,
+				87D482F6804D97CC13902718 /* SymbolStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD8001EDFC4EAF4FB45B0104 /* touchBarText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47A913EFDFA6C1A2901A53BB /* Build configuration list for PBXNativeTarget "touchBarText" */;
+			buildPhases = (
+				6A7715C07E9A7C6212132B8D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touchBarText;
+			packageProductDependencies = (
+			);
+			productName = touchBarText;
+			productReference = FFC0AC165FD075B44B315724 /* touchBarText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F670B45575196ACD10963E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DD8001EDFC4EAF4FB45B0104 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A44F74570CCA08378D9445F4 /* Build configuration list for PBXProject "touchBarText" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 63FA3081869E6E687FC82FC9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8687D72110C9F59B1F721250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD8001EDFC4EAF4FB45B0104 /* touchBarText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7715C07E9A7C6212132B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2138E2FF773690D8D4EF7E58 /* AccessibilityPermission.swift in Sources */,
+				EBAFDEECA158BDD497E8D6BB /* AppDelegate.swift in Sources */,
+				D6C10011CE14EE72B77BBDBF /* DFRPrivateAPI.swift in Sources */,
+				FB7DF576A01F2B7E876E12FB /* HotkeyManager.swift in Sources */,
+				3CDA380F9482F6F45F5775CC /* HotkeyPanel.swift in Sources */,
+				B39DE9F22BFE047F265AE32C /* HotkeyPanelController.swift in Sources */,
+				C7601BB21E7B5B0AD303CF4C /* LoginItemManager.swift in Sources */,
+				1304EAE6AB1A8995C78CE529 /* StatusItemController.swift in Sources */,
+				496306DA10A7DA42284E0F24 /* SymbolCategory.swift in Sources */,
+				7D8A2533135898DFADF4EE47 /* SymbolInserter.swift in Sources */,
+				9B7EA83109273CE1537645CF /* SymbolPickerView.swift in Sources */,
+				3266E763C49626435134C401 /* SymbolPickerViewModel.swift in Sources */,
+				6A49DFD216AB5A70F1ACC561 /* SymbolStore.swift in Sources */,
+				445B47C813789298C5762A08 /* TouchBarController.swift in Sources */,
+				831EF092B5F3394BD9B25907 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		11A778D8956437F64F780935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L68FL9Z69;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = touchBarText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxim.touchBarText;
+				PRODUCT_NAME = touchBarText;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "touchBarText/touchBarText-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		385C85F49BC2276C2510A746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		39CD4BD9DD239401832E0948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2L68FL9Z69;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = touchBarText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxim.touchBarText;
+				PRODUCT_NAME = touchBarText;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "touchBarText/touchBarText-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6EA969554FB484D8EA973261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47A913EFDFA6C1A2901A53BB /* Build configuration list for PBXNativeTarget "touchBarText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CD4BD9DD239401832E0948 /* Debug */,
+				11A778D8956437F64F780935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A44F74570CCA08378D9445F4 /* Build configuration list for PBXProject "touchBarText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EA969554FB484D8EA973261 /* Debug */,
+				385C85F49BC2276C2510A746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60F670B45575196ACD10963E /* Project object */;
+}
